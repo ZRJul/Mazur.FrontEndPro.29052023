@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text_centre {
+  text-align: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.aline_centre {
+  align-items: center;
+}
+
+.container {
+  max-width: 1294px;
+  margin: auto;
+}
+@media screen and (max-width: 1315px) {
+  .container {
+    margin: 0 15px;
+  }
+}
+
+.ideas {
+  padding-top: 47px;
+  padding-bottom: 24px;
+}
+@media screen and (max-width: 1015px) {
+  .ideas {
+    padding-top: 27px;
+  }
+}
+.ideas h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 9px;
+}
+@media screen and (max-width: 450px) {
+  .ideas h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 326px) {
+  .ideas h3 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}
+.ideas p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 56px;
+}
+.ideas .ideas_box {
+  padding-bottom: 73px;
+}
+@media screen and (max-width: 1015px) {
+  .ideas .ideas_box {
+    padding-bottom: 43px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .ideas .ideas_box {
+    display: block;
+    margin: auto;
+  }
+}
+.ideas .ideas_box .box_img {
+  max-width: 620px;
+  border-radius: 16px;
+  margin-right: 35px;
+}
+@media screen and (max-width: 699px) {
+  .ideas .ideas_box .box_img {
+    margin: auto;
+  }
+}
+.ideas .ideas_box .box_img img {
+  max-width: 100%;
+}
+.ideas .ideas_box .box_text {
+  padding-top: 14px;
+  max-width: 600px;
+  text-align: left;
+}
+@media screen and (max-width: 1060px) {
+  .ideas .ideas_box .box_text {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 699px) {
+  .ideas .ideas_box .box_text {
+    text-align: center;
+    margin: auto;
+  }
+}
+.ideas .ideas_box .box_text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 28px;
+}
+.ideas .ideas_box .box_text p:last-of-type {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1015px) {
+  .ideas .ideas_box .box_text p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .ideas .ideas_box .box_text p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ideas .ideas_box .box_text p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 699px) {
+  .ideas .ideas_box .box_text p {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ideas .ideas_box .box_text p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ideas .ideas_box .box_text p {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}
+.ideas a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  line-height: 29px;
+  display: inline-block;
+}
+.ideas a:after {
+  content: "";
+  display: inline-block;
+  background-image: url("../image/ideas_arrow.svg");
+  width: 30px;
+  height: 28px;
+  vertical-align: bottom;
+}
+@media screen and (min-width: 767px) {
+  .ideas a:hover {
+    font-size: 28px;
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 1015px) {
+  .ideas a {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
